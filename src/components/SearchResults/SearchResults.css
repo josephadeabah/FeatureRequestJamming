@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.SearchResults {
+  width: 365px;
+  height: 950px;
+  overflow-y: auto;
+  padding: .88rem;
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+}
+
+.SearchResults h2 {
+  background-color: #6c41ec;
+  //box-sizing: border-box;
+  text-align: center;
+  width: auto;
+  padding: 10px 10px;  
+  //position: relative;
+}
+
+@media only screen and (max-width: 1020px) {
+  .SearchResults {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,57 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+  .Playlist {
+    width: 90%;
+  }
+}
+
+.Track {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+}
+
+.TrackPlaylist {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+}
+
+.Track-action {
+  cursor: pointer;
+  padding: .5rem;
+  font-size: 1.25rem;
+  transition: color .25s;
+}
+
+.Track-action:hover {
+  color: rgba(265, 265, 265, .5);
+}
+
+.Track-information {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+  height: 100px;
+}
+
+.Track-information h3 {
+  margin-bottom: .22rem;
+}
+
+.Track-information p {
+  //float: left;
+  font-size: .83rem;
+  font-weight: 300;
+  justify-content: center;
+  color: rgba(256, 256, 256, 0.8);
+}
+
+.PlayButton {
+  padding: 10px 10px;
+}
